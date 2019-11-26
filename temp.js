@@ -26,19 +26,19 @@ function validate(i, n) {
             // 40 55 70 80
             if(k < 0.4) {
                 grade = 1
-                message = "TANUJJÁ"
+                message = "Erre inkább nem mondok semmit..."
             } else if(k < 0.55) {
                 grade = 2
-                message = "júr a dzséniusz"
+                message = ":face_palm:"
             } else if(k < 0.70) {
                 grade = 3
-                message = "júr ívön mór dzsíniüsz"
+                message = "Legalább a fele megvan :P"
             } else if(k < 0.80) {
                 grade = 4
-                message = "júr dö mószt dszínüször"
+                message = "I mean... Majdnem"
             } else {
                 grade = 5
-                message = "GG"
+                message = "Ez már majdnem olyan kreatív, mint az ananász!"
             }
 
             let scoreText = document.createElement("div")
